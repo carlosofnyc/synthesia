@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: SYNTHESIA_DB
+    schema: RAW
+    tables:
+      - name: CUSTOMER_CHURN_RAW
+        description: Raw customer churn data synced from Airbyte
